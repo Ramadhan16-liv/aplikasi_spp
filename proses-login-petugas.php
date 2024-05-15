@@ -15,7 +15,7 @@ if(mysqli_num_rows($query)>0){
     if($data['level']=='admin'){
         header('Location:admin/admin.php');
     }else if($data['level']=='petugas'){
-        headher('Location:petugas/petugas.php');
+        header('Location:petugas/petugas.php');
     }
 }else{
     echo"<script>
